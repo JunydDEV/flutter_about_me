@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(AboutUsApp());
+  runApp(AboutMeApp());
 }
 
-class AboutUsApp extends StatelessWidget {
+class AboutMeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -13,19 +13,19 @@ class AboutUsApp extends StatelessWidget {
         fontFamily: 'ProximaNova',
         primarySwatch: Colors.amber,
       ),
-      home: new AboutUsPage(),
+      home: new AboutMePage(),
     );
   }
 }
 
-class AboutUsPage extends StatefulWidget {
+class AboutMePage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return new AboutUsPageState();
+    return new AboutMePageState();
   }
 }
 
-class AboutUsPageState extends State<AboutUsPage> {
+class AboutMePageState extends State<AboutMePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
